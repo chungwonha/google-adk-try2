@@ -1,4 +1,4 @@
-package agents.multitool;
+package agents.stockanalysis;
 
 import com.google.adk.agents.BaseAgent;
 import com.google.adk.agents.LlmAgent;
@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class StockAnalysisLoopAgent {
-    private static String USER_ID = "student";
+    private static String USER_ID = "student3";
     private static String NAME = "stock_analysis_loop_agent";
 
     // The run your agent with Dev UI, the ROOT_AGENT should be a global public static variable.

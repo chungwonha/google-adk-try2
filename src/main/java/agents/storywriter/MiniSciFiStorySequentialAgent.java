@@ -1,4 +1,4 @@
-package agents.multitool;
+package agents.storywriter;
 
 import com.google.adk.agents.BaseAgent;
 import com.google.adk.agents.LlmAgent;
@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class MiniSciFiStorySequentialAgent {
-    private static String USER_ID = "student3";
+    private static String USER_ID = "student4";
     private static String NAME = "mini_scifi_story_sequential_agent";
 
     // The run your agent with Dev UI, the ROOT_AGENT should be a global public static variable.

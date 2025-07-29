@@ -1,4 +1,4 @@
-package agents.multitool;
+package agents.multilingual;
 
 import com.google.adk.agents.BaseAgent;
 import com.google.adk.agents.LlmAgent;
@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class MultiLingualParallelAgent {
-    private static String USER_ID = "student";
+    private static String USER_ID = "student1";
     private static String NAME = "multilingual_parallel_agent";
 
     // The run your agent with Dev UI, the ROOT_AGENT should be a global public static variable.
@@ -52,8 +52,7 @@ public class MultiLingualParallelAgent {
     public static void main(String[] args) throws Exception {
         InMemoryRunner runner = new InMemoryRunner(ROOT_AGENT);
 
-        Session session =
-                runner
+        Session session = runner
                         .sessionService()
                         .createSession(NAME, USER_ID)
                         .blockingGet();
